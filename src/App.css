@@ -1,0 +1,241 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+  padding: 20px;
+}
+
+.fullBor {
+  border: 1px solid #000;
+  padding: 40px;
+  position: relative;
+}
+
+.viewTitle {
+  position: absolute;
+  top: -10px;
+  left: 60px;
+  background-color: #fff;
+  padding: 0px 5px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.searchBox {
+  position: relative;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 2px;
+  top: 5px;
+
+}
+
+.searchtxt {
+  padding: 5px 5px 5px 25px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexStart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flexMid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alignCenter {
+  display: flex;
+  align-items: center;
+}
+
+.listBox {
+  /* border: 2px solid #000; */
+  box-shadow: 5px 5px 25px 1px #dedede;
+  border-radius: 5px;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+
+.txtcen {
+  text-align: center;
+}
+
+.gridView {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.point {
+  cursor: pointer;
+}
+
+.cl0A8080 {
+  color: #0A8080;
+}
+
+.f14 {
+  font-size: 14px;
+}
+
+.f16 {
+  font-size: 16px;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.trowBor {
+  border: 3px solid #000 !important;
+  padding: 10px;
+}
+
+tbody tr {
+  box-shadow: 5px 5px 25px 1px #dedede;
+  border-radius: 10px;
+}
+
+.br-5 {
+  border-radius: 5px !important;
+}
+
+/* 
+td {
+  border: 3px solid #000 !important;
+
+} */
+
+.br0 {
+  border-right: 0px !important;
+}
+
+.bl0 {
+  border-left: 0px !important;
+}
+
+
+
+.fixTableHead {
+  overflow-y: scroll;
+  height: 100%;
+  padding: 25px;
+}
+
+.fixTableHead thead th {
+  position: sticky;
+  top: 0;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 25px;
+  width: 100%;
+}
+
+th {
+  text-align: left;
+  padding: 10px;
+}
+
+.pad10 {
+  padding: 10px;
+}
+
+.pad15 {
+  padding: 15px;
+}
+
+.pad25 {
+  padding: 25px;
+}
+
+.pad025 {
+  padding: 0px 25px;
+}
+
+.w100 {
+  width: 100%
+}
+
+.w10 {
+  width: 10%;
+}
+
+.w20 {
+  width: 20%;
+}
+
+.w25 {
+  width: 25%
+}
+
+.w30 {
+  width: 30%;
+}
+
+.disnone {
+  display: none;
+}
+
+.disblock {
+  display: block;
+}
